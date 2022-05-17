@@ -1,0 +1,75 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.header .logo {
+  padding: 1rem;
+}
+
+.header .logo .logo h1 {
+  font-size: 2rem;
+  color: #ece9e9;
+}
+
+.header .socials {
+  background-color: #ece9e9;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.header .socials_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .socials_items {
+  padding-left: .8rem;
+}
+
+.header .socials_items .socials_link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #202020;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background-color: #202020;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */

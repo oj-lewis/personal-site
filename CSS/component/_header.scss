@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+    .logo {
+        padding: 1rem;
+
+        .logo h1 {
+            font-size: 2rem;
+            color: #ece9e9;
+        }
+    }
+
+    .socials {
+        background-color: #ece9e9;
+        padding: 1rem;
+        border-radius: 15px;
+
+        &_list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &_items {
+            padding-left: .8rem;
+
+            .socials_link {
+                font-size: 1rem;
+                font-weight: 500;
+                color: #202020;
+            }
+        }
+    }
+}

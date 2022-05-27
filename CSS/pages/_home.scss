@@ -1,0 +1,41 @@
+.home_container {
+    // border:  2px solid red;
+    // margin-top: 100rem;
+    padding-top: 2rem;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 3rem;
+    
+    .home_text {
+        width: 100%;
+    }
+
+    .home_links {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .links {
+            background-color: #fff;
+            padding: 1.5rem 2rem;
+            border: 3px solid #a7a2a7;
+            border-radius: 15px;
+            font-size: 20px;
+            
+
+             a {
+                color: #202020;
+                font-weight: 500;
+                width: 100%;
+            }
+
+            &:hover {
+                box-shadow: 5px 5px 14px rgba($color: #000000, $alpha: .2);
+            }
+        }
+    }
+}

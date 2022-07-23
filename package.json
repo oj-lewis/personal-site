@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/oj-lewis/personal-site#readme",
   "dependencies": {
-    "astro": "^1.0.0-beta.73"
+    "astro": "^1.0.0-beta.73",
+    "@astrojs/tailwind":"^0.2.4"
   }
 }

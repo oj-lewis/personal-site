@@ -7,5 +7,10 @@ export default defineConfig({
         tailwind({
             config: {path: "./tailwind.config.js"}
         })
-    ]
+    ],
+    vite: {
+        ssr: {
+            external: ["svgo"]
+        }
+    }
 })

@@ -1,0 +1,45 @@
+---
+import { Icon } from "astro-Icon"
+---
+
+<style lang="css">
+    [astro-icon="mdi:github"],
+    [astro-icon="mdi:twitter"],
+    [astro-icon="mdi:linkedin"] {
+        color: rgb(255, 255, 255);
+        height: 1rem;
+        width: 1rem;
+    }
+
+    [astro-icon="mdi:github"],
+    [astro-icon="mdi:twitter"],
+    [astro-icon="mdi:linkedin"]:hover {
+        color: rgb(168 85 247 /1);
+        
+    }
+</style>
+
+<div class="absolute bg-black py-4 px-6  bottom-10 left-[50%] translate-x-[-50%] shadow-2xl hover:translate-x-30" >
+    <ul class="flex items-center justify-between">
+        <li>
+            <a href="http://github.com/oj-lewis" target="_blank">
+               <Icon name="mdi:github" set:text="Github"/>
+               <!-- Github -->
+            </a>
+        </li>
+
+        <li class="pl-3">
+            <a href="http://twitter.com/the_ojlewis" target="_blank">
+                <Icon name="mdi:twitter" />
+                <!-- twitter -->
+            </a>
+        </li>
+
+        <li class="pl-3">
+            <a href="http://linkedin.com/omiete-john-lewis-7218a6212" target="_blank">
+                <Icon name="mdi:linkedin" />
+                <!-- linkedin -->
+            </a>
+        </li>
+    </ul>
+</div>
